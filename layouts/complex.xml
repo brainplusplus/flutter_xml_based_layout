@@ -1,0 +1,28 @@
+<?xml?>
+<!--<Material>-->
+    <Column>
+        <Container height="56.0">
+            <Row>
+                <IconButton key="1" icon="menu" tooltip="Navigation Menu"></IconButton>
+                <Expanded>
+                    <Text>Title Apps</Text>
+                </Expanded>
+                <IconButton key="2" icon="search" tooltip="Search"></IconButton>
+            </Row>
+        </Container>
+        <Expanded>
+            <Center>
+                <Row>
+                    <RaisedButton onPressed="raisedButtonAction">
+                        <Text>Ubah</Text>
+                    </RaisedButton>
+                    <Text>timStr : {{timeStr}}</Text>
+                    <!--<IconButton key="2" icon="search" tooltip="Search"></IconButton>-->
+                    <!--<Expanded>-->
+                        <!--<Text>Title Apps</Text>-->
+                    <!--</Expanded>-->
+                </Row>
+            </Center>
+        </Expanded>
+    </Column>
+<!--</Material>-->
